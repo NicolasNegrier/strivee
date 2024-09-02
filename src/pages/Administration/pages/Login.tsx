@@ -1,4 +1,5 @@
 import { Header } from "../components/Header";
+import { LoginForm } from "../components/LoginForm";
 
 export function Login() {
   
@@ -6,6 +7,7 @@ export function Login() {
       <>
         <section id="leftLogin">
             <Header/>
+            <LoginForm />
         </section>
       </>
     );
