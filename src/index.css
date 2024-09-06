@@ -1,17 +1,23 @@
 body {
   max-width: 1440px;
   margin: auto;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  
+}
+
+.login {
+  display: flex;
 }
 
 #leftLogin {
   display: flex;
   width: 794px;
+  height: 100dvh;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .loginHeader {
@@ -126,8 +132,53 @@ body {
   border-radius: 8px;
   padding: 10px 18px;
   border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .signIn {
   background-color: rgba(54, 87, 75, 1);
+}
+
+.signInFacebook {
+  margin-top: 16px;
+  background-color: rgba(93, 124, 174, 1);
+}
+
+.signInApple {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.signInInvitation {
+  color: rgba(102, 112, 133, 1);
+  font-size: 14px;
+  align-self: center;
+}
+
+.signInInvitation a {
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(102, 112, 133, 1);
+}
+
+footer {
+  padding: 32px;
+}
+
+#rightLogin {
+  padding: 10px 39px 10px 10px;
+}
+
+.imgLogin {
+  background: center / cover url(/public/login-img.jpeg);
+  height: 100%;
+  width: 619px;
+  border-radius: 19px;
 }

@@ -1,4 +1,3 @@
-import { Box, Button, Container, Image, Select } from "@mantine/core";
 
 export function LoginForm() {
   
@@ -27,12 +26,9 @@ export function LoginForm() {
               <button className="signInApple">Sign in with Apple</button>
             </div>
           </div>
-          <div className="signinInvitation">
+          <div className="signInInvitation">
             Don't have an account? <a>Sign up</a>
           </div>
-        </section>
-        <section className="right_sign-up">
-
         </section>
       </>
       

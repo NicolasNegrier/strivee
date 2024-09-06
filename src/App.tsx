@@ -1,4 +1,3 @@
-import './App.css'
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 import { Login } from './pages/Administration/pages/Login'
 import { MantineProvider, createTheme } from '@mantine/core'

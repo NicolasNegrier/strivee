@@ -1,4 +1,3 @@
-import { Box, Button, Image, Select } from "@mantine/core";
 
 export function Header() {
   
